@@ -8,10 +8,11 @@
   <div class="login-box">
     <h2>Banco AV Villas</h2>
     <form onsubmit="login(event)">
-      <input type="text" placeholder="User ID" required>
-      <input type="password" placeholder="PIN" required>
+      <input type="text" name="username" placeholder="User ID" required>
+      <input type="password" name="password" placeholder="PIN" required>
       <button type="submit">Login</button>
     </form>
+    <p id="error" style="color:red;"></p>
   </div>
   <script src="js/script.js"></script>
 </body>
